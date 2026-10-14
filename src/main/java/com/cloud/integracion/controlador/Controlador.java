@@ -10,7 +10,7 @@ class Controlador {
 
     @GetMapping ("/health")
     public String health() {
-        return "API funcional\n";
+        return "API funcional test\n";
     }
 
 }
